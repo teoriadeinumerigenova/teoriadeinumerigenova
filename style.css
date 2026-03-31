@@ -54,7 +54,7 @@ div.index {background:#505050 url(img/boccadasse.jpg) bottom left repeat-y;}
 #main p {line-height:1.3em; width:560px;}
 .speakers {font-size:1.3em; color:#040E51; padding:20px 0px 0px 0px;}
 .organizers {font-size:1.1em; color:#040E51; padding:7px 0 0px 0;} 
-.tit {font-size:1.4em; font-weight:400; color:#040E51; padding:10px 0px 0px 0px; margin-bottom: 5px;}
+.tit {font-size:1.4em; font-weight:400; color:#040E51; padding:5px 0px 0px 0px; margin-bottom:0px;}
 .date {font-size:1.1em; color:navy; padding: 0px 0 0px 0;} 
 .nomeab {font-size:1.2em; padding: 5px 0 7px 0; margin:0; font-weight:600; }
 .abstract {font-size:1.05em; padding: 0px 0 10px 0; font-style: italic; text-align:justify; margin:0;}
