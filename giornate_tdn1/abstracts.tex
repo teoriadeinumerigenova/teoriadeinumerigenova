@@ -1,0 +1,183 @@
+\documentclass[15pt]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage{geometry}
+\geometry{left=1.2in, right=1.2in, top=.72in, bottom=.72in}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage{titlesec}
+\titleformat*{\section}{\bfseries\large}
+\newtheorem{thm}{Theorem}
+
+
+
+\title{Giornate INDAM di teoria dei numeri\\ {\large Genova, 18-19 Dicembre 2017}\\[1em] Abstracts}
+\author{}
+\date{}
+
+\uchyph=0
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty}
+
+\vspace{-5em}
+
+\subsection*{Francesco Battistoni: Low discriminants for number fields of degree 8 and signature $(2,3)$}
+Let $K$ be a number field of degree $n$, with discriminant $d_K$, and let $r_1$ be the number of real embeddings of $K$ and $r_2$ be the number of couples of complex embeddings, so that $n=r_1+2r_2$.\\
+A classical problem asks to establish the minimum value for $|d_K|$ when $K$ ranges in the set of fields with a fixed signature $(r_1,r_2)$. During the last century many methods for answering the question were set: from the classical tools of Geometry of Numbers invented by Minkowski to the analytic estimates involving the Dedekind Zeta functions, due to Odlyzko \cite{odlyzko1990bounds}, Poitou \cite{poitou1977petits} and Serre \cite{serre1986minorations} up to the algorithmic procedures, based on number-geometric ideas, developed by Pohst \cite{pohst1982computation}, Martinet \cite{martinet1985methodes} and Diaz y Diaz \cite{pohst1990minimum} (in collaboration with the previous authors): with these ideas the problem was solved for $n\leq 7$, with any signature, and also for $n=8$, if the signature is either $(8,0)$ or $(0,4)$.
+\\
+In this work we exploit the methods aforementioned in order to prove the following results:
+\begin{thm}\label{minimumdisc}
+	Let $d_K$ be the discriminant of a number field $K$ with degree $8$ and signature $(2,3)$. Then the minimum value of $|d_K|$ is equal to $4286875$.
+\end{thm}
+
+\begin{thm}\label{classification}
+There are 56 number fields of degree $8$ and signature $(2,3)$ with $|d_K|\leq 5726300$; with the exception of two non-isomorphic fields with $|d_K|=5365963$, every field in the list is uniquely characterized by the value of $|d_K|$.
+\end{thm}
+
+\bibliographystyle{amsplain}
+{\small
+\bibliography{bibliography.bib}
+}
+
+
+
+\subsection*{Sandro Bettin: Statistical distribution of the Stern sequence}
+This is joint work with Sary Drappeau and Lukas Spiegelhofer~\cite{BSD}.
+\vspace{0.3em}
+
+The Stern sequence $s(n)$ is defined recursively as follows: 
+$$
+s(1)=1, \qquad s(2n)=s(n),\qquad s(2n+1)=s(n)+s(n+1),\ \forall n\geq1.
+$$
+We show that the values $\log s(n)$, with $n$ taken uniformly randomly in $I_n:=[2^{N-1},2^N)$, are asymptotically distributed according to a normal law as $N\to \infty$.
+
+This is obtained by expressing the $s(n)$ with $n\in I_n$ as the denominators of the $N$-th preimages at ${0,1}$ of the Farey map and then studying the relevant transfer operator.
+
+\bibliographystyle{amsplain}
+{\small
+\begin{thebibliography}{1}
+
+\bibitem{BSD}
+S.~Bettin, S. Drappeau and L.~Spiegelhofer, \emph{Statistical distribution of the Stern sequence}, arXiv:1704.05253
+\end{thebibliography}
+}
+
+\subsection*{Dante Bonolis: On the size of the maximum of incomplete Kloosterman sums}
+For any $t:\mathbb{F}_{p}\rightarrow\mathbb{C}$, one can define
+\[
+M(t):=\frac{1}{\sqrt{p}}\max_{0\leq H<p}\Bigg|\sum_{n<H}t(n)\Bigg|.
+\]
+The P\'olya-Vinogradov inequality implies that
+\[
+M(t)\ll \left\|K\right\|_{\infty}\log p.
+\]
+Where $K$ is the Fourier transform of $t$. Our goal is to understand if this bound is sharp for example when
+\[
+t:x\mapsto e\Big(\frac{ax+b\overline{x}}{p}\Big)
+\]
+where $e(\cdot):=\text{exp}(2\pi i\cdot)$, $a,b\in\mathbb{F}_{p}^{\times}$ and $\overline x$ denotes the inverse of $x$ modulo $p$ (i.e. for incomplete Kloosterman sums). An other question we will try to answer is: fix $A>0$, how many $a\in\mathbb{F}_{p}^{\times}$  there are such that $M(e(\tfrac{ax+\overline{x}}{p}))>A$?
+
+
+\subsection*{Giacomo Cherubini: The prime geodesic theorem for the Picard manifold}
+
+I will recall the prime geodesic theorem in two dimensions and extend the construction to three dimensions. The main result is a new bound for the error term in the problem, which improves on the currently best known unconditional estimate, due to Sarnak. This is joint work with D. Chatzakos and N. Laaksonen.
+
+
+\subsection*{Giuseppe Molteni: An effective Chebotarev theorem under GRH}
+
+Given a Galois extension of fields $\mathbb{K}/\mathbb{L}$, Chebotarev's theorem
+shows that the image of the Frobenius map of prime ideals in $\mathbb{K}$ are equidistributed
+among the conjugation classes of the Galois group of the extension.\\
+We show a version of this theorem which is completely explicit, i.e. where the remainder term
+is explicitly given in terms of the degree and the discriminant of $\mathbb{L}$.\\
+The result has been obtained in collaboration with L.~Greni\'{e}~\cite{GrenieMolteni} and improves
+an analogous result of J.~Oesterl\'{e}~\cite{Oesterle}.
+
+{\small
+\begin{thebibliography}{1}
+\bibitem{GrenieMolteni}
+L.~Greni\'{e}, and G.~Molteni, \emph{An effective Chebotarev density theorem under GRH}, Preprint
+\url{http://arxiv.org/abs/1709.07609}, 2017.
+
+\bibitem{Oesterle}
+J.~Oesterl\'{e}, \emph{Versions effectives du th\'{e}or\`{e}me de {C}hebotarev
+  sous l'hypoth\`{e}se de {R}iemann g\'{e}n\'{e}ralis\'{e}e}, Ast\'{e}risque
+  \textbf{61} (1979), 165--167.
+\end{thebibliography}
+}
+
+\subsection*{Giovanni Panti: Continued fractions on triangle groups}
+
+We identify a continued fraction algorithm with the Gauss-type map it induces on an interval in $\mathbb P^1(\mathbb R)$. We will show that in the classical case (i.e., working over the integers) the subgroups of $PGL_2(\mathbb R)$ generated by the branches of these maps have index at most 8 in the extended modular group $PGL_2(\mathbb Z)$. This has an impact on the validity of the Serret theorem (two reals are $PGL_2(\mathbb Z)$-conjugated iff they have the same cf tail) for these algorithms, and we will settle the issue.
+
+As a natural generalization, one might replace the extended modular group with other hyperbolic triangle groups; for example, cf algorithms based on the Hecke groups $(2,n,\infty)$ appear immediately when dealing with the geodesic flow on translation surfaces. Here the situation is much more involved, and I will discuss a few results, techniques, and open problems.
+
+\subsection*{Alberto Perelli: Formule esplicite per medie di rappresentazioni di Goldbach}
+
+Presentiamo una formula esplicita, analoga alla classica formula esplicita per $\psi(x)$, per le medie di Ces\`aro-Riesz di ogni ordine $k>0$ del numero di rappresentazioni di $n$ come somma di due primi. Il metodo si basa su una trasformata di Mellin doppia e sul prolungamento analitico di certe funzioni ad essa collegate (lavoro in collaborazione con J.Br\"udern e J.Kaczorowski).
+
+\subsection*{Carlo Sanna: A coprimality condition on consecutive values of polynomials}
+
+This is joint work with M{\'a}rton Szikszai.
+\vspace{0.3em}
+
+Given a sequence of integers $s=(s(n))_{n \geq 1}$, let $G_s \geq 2$ be the smallest integer such that for every integer $k\geq G_s$ one can find $k$ consecutive terms of $s$ with the property that none of them is coprime to all the others.
+Of course, $G_s$ may not exist.
+
+Erd\H{o}s~\cite{erdos} proved the existence of $G_s$ when $s$ is the sequence of natural numbers, and in such a case the combined efforts of Pillai~\cite{MR0001226, MR0001747} and Brauer~\cite{MR0003638} showed that $G_s=17$.
+Later, Evans~\cite{MR0319867} proved the existence of $G_s$ when $s$ is an arithmetic progression.
+
+The study of $G_s$ has at least two motivations: for Erd\H{o}s and Brauer it came from a problem on prime gaps, while for Pillai it came from the classical Diophantine problem whether the product of consecutive integers can be a perfect power.
+
+We prove the existence of $G_s$ in the case in which $s = (f(n))_{n \geq 1}$, where $f \in \mathbb{Z}[X]$ is a quadratic of cubic polynomial.
+This answers a question of Harrington and Jones~\cite{MR3361816}.
+Our proof relies on results on the $p$-adic valuations of products of consecutive polynomial values, on elementary properties of the roots of $f$ modulo a prime, and on lower bounds for the number of certain primes dividing the values of an auxiliary polynomial.
+
+\bibliographystyle{amsplain}
+{\small
+\begin{thebibliography}{1}
+
+\bibitem{SS}
+C.~Sanna and M.~Szikszai, \emph{A coprimality condition on consecutive values
+  of polynomials}, Bull. Lond. Math. Soc. \textbf{49} (2017), 908--915.
+
+\bibitem{erdos}
+P.~Erd\H{o}s, \emph{On the difference of consecutive primes}, Q. J. Math.
+  \textbf{6} (1935), 124--128.
+
+\bibitem{MR0001226}
+S.~S. Pillai, \emph{On {$m$} consecutive integers. {I}}, Proc. Indian Acad.
+  Sci., Sect. A. \textbf{11} (1940), 6--12.
+
+\bibitem{MR0001747}
+S.~S. Pillai, \emph{On {$m$} consecutive integers. {II}}, Proc. Indian Acad.
+  Sci., Sect. A. \textbf{11} (1940), 73--80.
+
+\bibitem{MR0003638}
+A.~Brauer, \emph{On a property of {$k$} consecutive integers}, Bull. Amer.
+  Math. Soc. \textbf{47} (1941), 328--331.
+
+\bibitem{MR0319867}
+R.~Evans, \emph{On {$N$} consecutive integers in an arithmetic progression},
+  Acta Sci. Math. (Szeged) \textbf{33} (1972), 295--296.
+
+\bibitem{MR3361816}
+J.~Harrington and L.~Jones, \emph{Extending a theorem of {P}illai to quadratic
+  sequences}, Integers \textbf{15A} (2015), Paper No. A7, 22.
+
+\end{thebibliography}
+}
+
+\subsection*{Alessandro Zaccagnini: Additive problems with prime variables}
+
+We give a survey of recent results, obtained in collaboration with Alessandro Languasco, of additive problems with prime variables. In particular, we will talk of weighted averages of the number of representation of an even integer as a sum of two primes, and related problems.
+
+\subsection*{Giamila Zaghloul: On the linear twist of degree-1 functions in the extended Selberg class}
+	Let $F$ be a degree-1 function in the extended Selberg class $\emph{\textbf{S}}^{\, \sharp}$ and $\alpha\in\mathbb R$. We study the main analytic properties of the linear twist $F(s,\alpha)$. Starting from the characterization of $\emph{\textbf{S}}^{\,\sharp}_1$ and the known properties of the Hurwitz-Lerch zeta function, we show that the linear twist satisfies a functional equation of Hurwitz-Lerch type. We also discuss some results on the polynomial growth and the distribution of trivial zeros.
+
+
+\end{document}

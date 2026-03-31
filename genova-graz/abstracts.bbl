@@ -1,0 +1,38 @@
+\providecommand{\bysame}{\leavevmode\hbox to3em{\hrulefill}\thinspace}
+\providecommand{\MR}{\relax\ifhmode\unskip\space\fi MR }
+% \MRhref is called by the amsart/book/proc definition of \MR.
+\providecommand{\MRhref}[2]{%
+  \href{http://www.ams.org/mathscinet-getitem?mr=#1}{#2}
+}
+\providecommand{\href}[2]{#2}
+\begin{thebibliography}{1}
+
+\bibitem{martinet1985methodes}
+J.~Martinet, \emph{Methodes g\'eom\'etriques dans la recherche des petits
+  discriminants}, S\'eminaire de th\'eorie des nombres, {P}aris 1983--84,
+  Progr. Math., vol.~59, pp.~147--179.
+
+\bibitem{odlyzko1990bounds}
+A.~M. Odlyzko, \emph{Bounds for discriminants and related estimates for class
+  numbers, regulators and zeros of zeta functions: a survey of recent results},
+  S\'em. Th\'eor. Nombres Bordeaux (2) \textbf{2} (1990), no.~1, 119--141.
+
+\bibitem{pohst1982computation}
+M.~Pohst, \emph{On the computation of number fields of small discriminants
+  including the minimum discriminants of sixth degree fields}, J. Number Theory
+  \textbf{14} (1982), no.~1, 99--117.
+
+\bibitem{pohst1990minimum}
+M.~Pohst, J.~Martinet, and F.~Diaz~y Diaz, \emph{The minimum discriminant of
+  totally real octic fields}, J. Number Theory \textbf{36} (1990), no.~2,
+  145--159.
+
+\bibitem{poitou1977petits}
+G.~Poitou, \emph{Sur les petits discriminants},  (1977), Exp. No. 6, 18.
+
+\bibitem{serre1986minorations}
+{J}.~{P}. {S}erre, \emph{Minorations de discriminants, note of october 1975,
+  published on pp. 240-243 in vol. 3 of {J}ean-{P}ierre {S}erre, collected
+  papers}, 1986.
+
+\end{thebibliography}
