@@ -59,7 +59,7 @@ div.index {background:#505050 url(img/boccadasse.jpg) bottom left repeat-y;}
 .nomeab {font-size:1.2em; padding: 5px 0 7px 0; margin:0; font-weight:600; }
 .abstract {font-size:1.05em; padding: 0px 0 10px 0; font-style: italic; text-align:justify; margin:0;}
 .info {font-size:1.1em; padding: 0px 0 5px 0; margin:0;}
-#main li {}
+#main li {font-size: 1.1em;}
 .sbreak  {margin:0 0 7px 0; list-style-type:disc;}
 .stand  {list-style-type:disc;}
 .pranzo {margin:10px 0 10px 0; font-weight:400;  color:navy; list-style-type:circle;}
