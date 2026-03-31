@@ -47,7 +47,7 @@ div.index {background:#505050 url(img/boccadasse.jpg) bottom left repeat-y;}
 #desc a {border-color:#fff; color:#fff; text-decoration:none;}
 
 /* Main content */
-#main {border-right:1px solid #d8d8d8; float:left; margin:0; padding:0 15px 0 0; width:530px;}
+#main {border-right:1px solid #d8d8d8; float:left; margin:0; padding:0 15px 0 0; width:550px;}
 #main a {border-color:#fff; color:#0101DF; text-decoration:none;}
 #main h2 {font-size:1.4em; font-weight:600; margin:0 0 5px; padding:0; color:#040E51;}
 #main h3 {font-size:1.2em; font-weight:400; margin:0 0 2px; color:navy;}
@@ -67,7 +67,7 @@ div.index {background:#505050 url(img/boccadasse.jpg) bottom left repeat-y;}
 
 
 /* Sidebar */
-#sidebar {float:right; margin-left:15px; width:180px;}
+#sidebar {float:right; margin-left:15px; width:160px;}
 #sidebar p {font-size:0.9em; line-height:1.3em; margin:0 0 15px;}
 #sidebar ul {margin:0 0 15px 0; padding:0;}
 #sidebar li {list-style:none;}
